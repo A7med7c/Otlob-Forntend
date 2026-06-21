@@ -10,7 +10,7 @@
 ![i18n](https://img.shields.io/badge/i18n-ngx--translate-16A34A?style=for-the-badge&logo=googletranslate&logoColor=white)
 ![JWT Authentication](https://img.shields.io/badge/JWT-Authentication-111827?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
-Talabak is a production-style Angular 21 e-commerce storefront built to demonstrate modern frontend engineering practices for recruiters, hiring managers, and portfolio reviewers. The project showcases standalone Angular architecture, Server-Side Rendering (SSR), hydration, internationalization, JWT-based authentication, signal-driven UI state, and a responsive shopping experience designed for both English and Arabic users.
+Talabak is a production-style Angular 21 e-commerce storefront built to demonstrate modern frontend engineering practices for recruiters, hiring managers, and portfolio reviewers. The project showcases a standalone Angular architecture, Server-Side Rendering (SSR), hydration, internationalization, JWT-based authentication, signal-driven UI state, and a responsive shopping experience designed for both English and Arabic users.
 
 This repository is positioned as a portfolio-ready example of how to build a scalable Angular application with clean separation of concerns, feature-oriented structure, reusable services, and user-focused UX patterns.
 
@@ -306,7 +306,7 @@ The main environment settings are defined in:
 Current values include:
 
 - `baseUrl` for the e-commerce API
-- `frontUrl` for the frontend callback / checkout return flow
+- `frontUrl` for the frontend callback/checkout return flow
 
 If you need to point Talabak to a different backend, update the `baseUrl` value accordingly.
 
@@ -320,27 +320,4 @@ If you need to point Talabak to a different backend, update the `baseUrl` value 
 | `npm test` | Executes the unit test suite |
 | `npm run serve:ssr:E-commerce-Angular` | Serves the generated SSR build |
 
-## Future Enhancements
 
-- Add full NgRx Store / Actions / Effects / Selectors for larger-scale state orchestration
-- Introduce dedicated shared UI library for highly reusable presentational components
-- Add pagination, filtering, and sorting for large product catalogs
-- Implement stronger caching and memoization strategies for API data
-- Add role-based authorization scenarios
-- Improve accessibility coverage and keyboard navigation
-- Add CI/CD workflow automation for testing and deployment
-- Expand analytics, monitoring, and production observability
-- Add stronger environment separation for development, staging, and production
-
----
-
-## Portfolio Positioning
-
-Talabak is a strong portfolio project for:
-
-- GitHub portfolio presentation
-- LinkedIn featured projects
-- Junior and Mid-Level Angular Developer applications
-- ITI graduation portfolio submissions
-
-It demonstrates the ability to build more than static UI screens by combining modern Angular architecture, real API workflows, authentication, localization, SSR, and production-style frontend engineering practices in a single cohesive application.
