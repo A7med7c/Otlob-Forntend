@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+"build": "ng build && shx cp dist/E-commerce-Angular/browser/index.csr.html dist/E-commerce-Angular/browser/index.html",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:E-commerce-Angular": "node dist/E-commerce-Angular/server/server.mjs"
@@ -41,6 +41,7 @@
     "@types/node": "^20.17.19",
     "jsdom": "^28.0.0",
     "prettier": "^3.8.1",
+    "shx": "^0.4.0",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
   }
