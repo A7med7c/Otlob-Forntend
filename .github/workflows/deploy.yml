@@ -1,0 +1,36 @@
+name: Deploy Angular to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - run: npx ng build --configuration production --base-href "/Otlob-Forntend/"
+
+      - name: Copy index
+        run: |
+          cp dist/Otlob/browser/index.csr.html dist/Otlob/browser/index.html
+          cp dist/Otlob/browser/index.csr.html dist/Otlob/browser/404.html
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist/Otlob/browser
