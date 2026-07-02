@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "E-commerce-Angular": {
+    "Otlob": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
