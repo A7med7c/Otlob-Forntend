@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "Home": "Home",
+    "Products": "Products",
+    "Categories": "Categories",
+    "Brands": "Brands",
+    "Signout": "Sign Out",
+     "language": "Language"
+  },
+  "home":{
+  "popularcategories":"Popular Categories",
+  "popularproducts":"Popular Products",
+  "Searchbyname...":"Search by name..."
+  },
+"auth":{
+    "login": "Login",
+    "register": "Register",
+    "language": "Language"
+  },
+  "footer": {
+    "title": "Get The FreshCart App",
+    "description": "We will send you a link, open it on your phone to download the app",
+    "emailPlaceholder": "Email",
+    "shareBtn": "Share App Link",
+    "paymentPartners": "Payment partners",
+    "getDeliveries": "Get Deliveries with FreshCart"
+  },
+  "login": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "forgetPassword": "Forget Password",
+    "errors": {
+      "emailRequired": "*Email is required",
+      "invalidEmail": "*Invalid email format",
+      "passwordRequired": "*Password is required",
+      "passwordMin": "*Minimum 6 characters"
+    },
+    "toast":{
+    "loginSuccess": "Welcome to Fresh Cart",
+    "loginError": "Login failed, please try again"
+    }
+  },
+  "wishlist": {
+    "title": "Wishlist",
+    "loading": "Loading wishlist...",
+    "empty": "Your wishlist is empty",
+    "emptyDescription": "Add products you like to see them here.",
+    "addToCart": "Add to Cart",
+    "remove": "Remove from Wishlist",
+    "sold": "Sold",
+    "ratings": "Ratings"
+  }
+}

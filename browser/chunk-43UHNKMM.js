@@ -1,0 +1,1 @@
+import{Tb as p,_a as o,wb as n,xb as c}from"./chunk-VFT43KXV.js";var r=class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=o({type:e,selectors:[["app-product"]],decls:2,vars:0,template:function(t,i){t&1&&(n(0,"p"),p(1,"product works!"),c())},encapsulation:2})};export{r as Product};

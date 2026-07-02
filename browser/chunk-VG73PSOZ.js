@@ -1,0 +1,1 @@
+import{Tb as r,_a as o,wb as a,xb as n}from"./chunk-VFT43KXV.js";var c=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-category"]],decls:2,vars:0,template:function(e,s){e&1&&(a(0,"p"),r(1,"category works!"),n())},encapsulation:2})};export{c as Category};

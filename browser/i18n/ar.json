@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "Home": "الرئيسية",
+    "Products": "المنتجات",
+    "Categories": "الأقسام",
+    "Brands": "العلامات التجارية",
+    "Signout": "تسجيل الخروج",
+    "language": "اللغة"
+  },
+  "home":{
+  "popularcategories":"أشهر الأقسام",
+  "popularproducts":"أشهر المنتجات",
+    "Searchbyname...":"ابحث باستخدام اسم المنتج.."
+  },
+  "auth":{
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "language": "اللغة"
+  },
+  "footer": {
+    "title": "احصل على تطبيق FreshCart",
+    "description": "سنرسل لك رابطًا، افتحه على هاتفك لتحميل التطبيق",
+    "emailPlaceholder": "البريد الإلكتروني",
+    "shareBtn": "مشاركة رابط التطبيق",
+    "paymentPartners": "شركاء الدفع",
+    "getDeliveries": "احصل على التوصيل عبر FreshCart"
+  },
+  "login": {
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "login": "تسجيل الدخول",
+    "forgetPassword": "نسيت كلمة المرور",
+    "errors": {
+      "emailRequired": "*البريد الإلكتروني مطلوب",
+      "invalidEmail": "*صيغة البريد الإلكتروني غير صحيحة",
+      "passwordRequired": "*كلمة المرور مطلوبة",
+      "passwordMin": "*الحد الأدنى 6 أحرف"
+    },
+    "toast":{
+  "loginSuccess": "مرحبًا بك في فريش كارت",
+  "loginError": "فشل تسجيل الدخول، حاول مرة أخرى"
+    }
+  },
+  "wishlist": {
+    "title": "المفضلة",
+    "loading": "جاري تحميل المفضلة...",
+    "empty": "قائمة المفضلة فارغة",
+    "emptyDescription": "أضف المنتجات التي تعجبك لتظهر هنا.",
+    "addToCart": "أضف إلى السلة",
+    "remove": "إزالة من المفضلة",
+    "sold": "المبيعات",
+    "ratings": "التقييمات"
+  }
+}

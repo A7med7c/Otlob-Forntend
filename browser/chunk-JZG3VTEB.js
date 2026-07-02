@@ -1,0 +1,1 @@
+import{q as n}from"./chunk-HMBFX7N3.js";import{R as r,W as o,va as e}from"./chunk-VFT43KXV.js";var a=class t{platformId=o(e);getToken(){return n(this.platformId)?localStorage.getItem("token"):null}static \u0275fac=function(i){return new(i||t)};static \u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"})};export{a};
